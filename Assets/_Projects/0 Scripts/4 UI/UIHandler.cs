@@ -7,6 +7,7 @@ using DG.Tweening;
 using UniRx;
 using UniRx.Triggers;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace Garawell_Case.UI
@@ -93,7 +94,14 @@ namespace Garawell_Case.UI
                 case "Play":
                     PlayActions();
                     break;
-                    
+                
+                case "Try Again":
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                    break;
+                
+                case "Quit":
+                    Application.Quit();
+                    break;
             }
         }
 
