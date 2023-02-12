@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d41624102d3dd0c4e8bbcaf3f4c671af, type: 3}
+  m_Name: Data Container
+  m_EditorClassIdentifier: 
+  playerData:
+    nickname: dsb
+    force: 250
+    point: 0
+  aIData:
+    force: 250
+    speed: 180
+  carData:
+  - model: E9
+    speed: 300
+    activeSkill: 0
+    drag: 0
+    rotateSpeed: 500
+  - model: Civic
+    speed: 300
+    activeSkill: 0
+    drag: 0.5
+    rotateSpeed: 500
+  - model: Skyline R32
+    speed: 300
+    activeSkill: 0
+    drag: 0.23
+    rotateSpeed: 500
+  - model: Skyline R34
+    speed: 300
+    activeSkill: 0
+    drag: 0.22
+    rotateSpeed: 500
+  - model: Mustang
+    speed: 300
+    activeSkill: 1
+    drag: 0.4
+    rotateSpeed: 500
+  - model: R8
+    speed: 300
+    activeSkill: 0
+    drag: 0
+    rotateSpeed: 500
+  selectionData:
+    activeCarIndex: 0
+    activeColorIndex: 0
+    activeSkillIndexes: 000000000000000000000000000000000000000000000000
+  materialPaletteData:
+    palette:
+    - {fileID: 2100000, guid: c4f2099161348c047b3adff6f7f365dc, type: 2}
+    - {fileID: 2100000, guid: febc978ba4f8fdf48b06d204dd277e46, type: 2}
+    - {fileID: 2100000, guid: 192937851dc0eb14c8ef0cd98e97136a, type: 2}
+    - {fileID: 2100000, guid: 78ae6c83055060f409d516e273958497, type: 2}
+    - {fileID: 2100000, guid: e7ca1ccd81a1be84db949d13f8f9aa85, type: 2}
+    - {fileID: 2100000, guid: 72ba7cd33456d51448fc3734cbb84655, type: 2}
+    - {fileID: 2100000, guid: 47b55c36d62aac945925a252fed6f438, type: 2}
+    - {fileID: 2100000, guid: ddd7979ba373a5d448470cce56f4321c, type: 2}
+    - {fileID: 2100000, guid: 2fe96388664a5f14989114c978303324, type: 2}
+    - {fileID: 2100000, guid: 480f4a3b1c9548e459d871e8dda8514a, type: 2}
+    - {fileID: 2100000, guid: 7c1615f767d3d7849b1835c861280ee0, type: 2}
+    - {fileID: 2100000, guid: 92b04d56ce7281547aa795abc5460a08, type: 2}
