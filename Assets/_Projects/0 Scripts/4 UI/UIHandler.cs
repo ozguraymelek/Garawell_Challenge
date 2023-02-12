@@ -102,6 +102,14 @@ namespace Garawell_Case.UI
                 case "Quit":
                     Application.Quit();
                     break;
+                
+                case "Pause":
+                    if (Time.timeScale == 0)
+                        Time.timeScale = 1;
+                    else
+                        Time.timeScale = 0;
+                    break;
+                    
             }
         }
 
