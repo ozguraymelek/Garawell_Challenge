@@ -65,7 +65,7 @@ namespace Garawell_Case.UI
                     break;
                 
                 case "Back":
-                    Utils.TransitionBetweenUIElements(activePanel, new Vector3(0f, -1300f, 0f), 1f,
+                    Utils.TransitionBetweenUIElements(activePanel, new Vector3(0f, -1800f, 0f), 1f,
                         () => activePanel = null, () => Callbacks("Back"));
                     CarSelection.Instance.activeCar.transform.DOLocalMoveZ(0f, 1f);
                     Utils.TransitionBetweenCameras(virtualCameras[0],virtualCameras);
@@ -178,7 +178,7 @@ namespace Garawell_Case.UI
                             
                             canvasForSkillCharger.SetActive(true);
                             
-                            panelSkillCharger.DOLocalMove(new Vector3(-115f, 0f, 0f), 1f);
+                            panelSkillCharger.DOLocalMove(new Vector3(-170f, 0f, 0f), 1f);
                             panelInGameTimer.DOLocalMove(new Vector3(0f, 0f, 0f), .45f);
 
                             Utils.TransitionBetweenCameras(virtualCameras[2], virtualCameras);
@@ -214,7 +214,7 @@ namespace Garawell_Case.UI
             }
             
             Utils.TransitionBetweenUIElements(buttonPlay, new Vector3(0f, -1020f, 0f), .75f);
-            Utils.TransitionBetweenUIElements(panelSelectSkill, new Vector3(0f, 1300f, 0f), .75f);
+            Utils.TransitionBetweenUIElements(panelSelectSkill, new Vector3(0f, 1800f, 0f), .75f);
             Utils.TransitionBetweenUIElements(inputNickname, new Vector3(0f, -1050f, 0f), .75f);
             Utils.TransitionBetweenCameras(virtualCameras[1], virtualCameras);
             
